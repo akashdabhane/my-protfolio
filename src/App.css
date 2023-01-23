@@ -1,38 +1,332 @@
-.App {
-  text-align: center;
+body {
+  background-color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 60px;
+  /* background-color: green; */
+  background-color: rgb(255, 255, 255);
+  color: black;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  /* position: -webkit-sticky;
+  position: sticky;
+  top: 0; */
+}
+
+#name {
+  margin: 15px 180px;
+  margin-right: 350px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+
+}
+
+.navbar ul li {
+  margin: 0px 30px;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* a {
+  transition: all 0.4s ease;
+  transition: transform 0.3s;
+} */
+
+#navCircle {
+  height: 20px;
+  width: 20px;
+  margin-right: 15px;
+}
+
+#name img {
+  height: 20px;
+  width: 20px;
+  margin-right: 15px;
+}
+
+#navCicle:hover {}
+
+.navbar ul li a:hover {
+  /* background-color: aqua; */
+  /* text-decoration: line-through; */
+  /* color: pink; */
+  /* animation-name: bounce;
+  animation-timing-function: ease-in;  */
+  /* background-color: #FF1493; */
+  /* transition:ease-in-out ; */
+  /* text-emphasis-color: red; */
+  /* font-size: x-large; */
+  /* transition: 'all 5s ease-out'; */
+  /* opacity: 0; */
+  /* transition-property: color; */
+  /* transition-duration: 3s; */
+  /* -ms-transform-origin-x: 10px; */
+  /* transform-style: preserve-3d; */
+
+  /* transform: translateX(10px); */
+  /* transform: translateY(20px); */
+  /* Good One */
+  /* animation: shake 2000ms ease-in-out forwards;   // Good One*/
+  /* font-size: x-large; */
+  /* border-radius: 9px;
+  padding: 9px; */
+  color: orange;
+  /* animation: slide 2s linear; */
+  /* animation: slide 2s ease-in-out .5s infinite alternate; */
+
+}
+
+#mode {
+  font-size: large;
+  font-weight: bold;
+  margin: 15px 30px;
+  margin-left: 120px;
+}
+
+
+#mode img {
+  /* margin: 5px 10px; */
+  height: 20px;
+  width: 20px;
+}
+
+#mode:hover {
+  cursor: pointer;
+}
+
+#homePage {
+  height: 500px;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 70px 200px;
+  margin-left: 220px;
+  font-size: xx-large;
+  font-weight: bold;
+
+  /* background-color: aqua; */
+  display: flex;
+  /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+  /* animation-delay: 2000ms; */
+  /* opacity: 2000ms; */
+  transition: 'all 5s ease-out';
+  /* animation: slide 2s linear; */
+
+
+}
+
+#homePage img {
+  height: 500px;
+  /* width: 900px; */
+  /* background-color: blueviolet; */
+  /* animation-delay: 2000ms; */
+
+}
+
+#homePageText {
+  /* padding: 0px 10px; */
+  margin-top: 100px;
+}
+
+h2 {
+  color: orange;
+}
+
+#pitch {
+  width: 300px;
+}
+
+.endLine {
+  height: 2px;
+  background-color: rgb(95, 95, 201);
+  margin: 0px 100px;
+}
+
+#educationTitle {
+  display: block;
+  /* background-color: green; */
+  margin: 20px 270px;
+  padding: 5px 30px;
+  /* list-style-type: none; */
+  font-size: x-large;
+  font-weight: bold;
+}
+
+#myEducationContainer {
+  display: flex;
+}
+
+#myEducation {
+
+  height: 600px;
+  width: 900px;
+}
+
+.education {
+  display: flex;
+}
+
+.education img {
+  height: 40px;
+  width: 40px;
+  margin: 50px 0;
+  margin-left: 260px;
+}
+
+#eduInfo {
+  padding: 0 60px;
+}
+
+#skills {
+  height: 420px; 
+  width: 500px;
+  background-color: #256D85; 
+  border-radius: 7px;
+}
+
+
+#skillsCtgrztn {
+  display: flex; 
+  padding-left:50px; 
+  padding-right:50px; 
+}
+
+.skillList {
+  display: flex;
+  color:black; 
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 15px; 
+  font-size: 25px; 
+  font-weight: 900; 
+}
+
+#contactMeTitle {
+  display: block;
+  /* background-color: green; */
+  margin: 20px 270px;
+  padding: 5px 30px;
+  /* list-style-type: none; */
+  font-size: x-large;
+  font-weight: bold;
+}
+
+#contactMe {
+  display: flex;
+  margin: 25px 290px;
+}
+
+#socialMediaContact {
+  margin: 20px 20px;
+  width: 700px;
+  height: 350px;
+  background-color: #205295;
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#socialMediaContact h3 {
+  text-align: center;
+  padding: 20px 0px;
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.socialMediaIconAndLinks li {
+  margin: 25px;
+  list-style-type: none;
+  font-size: medium;
+  font-weight: 800;
+  color: black;
+}
+
+.socialMediaIconAndLinks li img {
+  height: 20px;
+  width: 20px;
+  margin: 0px 20px;
+}
+
+.socialMediaIconAndLinks li {
+  font-size: large;
+  align-content: center;
+  display: flex;
+  cursor: pointer;
+}
+
+#emailContact #emailHeader {
+  display: flex;
+
+}
+
+#emailContact input {
+  margin: 5px 30px;
+  padding: 6px;
+  border-radius: 4px;
+  font-size: medium;
+}
+
+#emailBody {
+  margin: 30px;
+  height: 400px;
+
+}
+
+#email {
+  height: 200px;
+  width: 400px;
+  padding: 10px;
+  font-size: large;
+  border-radius: 4px;
+}
+
+#sendEmailBtn {
+  background-color: #205295;
+
+  font-weight: 800;
+  color: black;
+  font-size: medium;
+  padding: 8px;
+  border-radius: 8px;
+  margin: 20px 180px;
+}
+
+.lastEndLine {
+  height: 2px;
+  background-color: rgb(61, 61, 139);
+  margin: 0px 100px;
+  margin-bottom: 300px;
+}
+
+.dark-mode {
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.mode_name {
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.day-mode {
+  background-color: white;
+}
+
+#triangleUpImage {
+  height: 70px;
+  width: 70px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.lastImgHome {
+  margin-left: 160px;
+
 }
