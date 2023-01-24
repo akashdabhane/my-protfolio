@@ -14,44 +14,6 @@ export default function Narbar() {
         })
     }
 
-    // function myFunction2() {
-    //     const changeModeName = document.getElementById('mode');
-    //     const body = document.body; 
-    //     changeModeName.addEventListener('click', () => {
-    //         // const changeModeName = document.getElementById('mode');
-    //         if (body.backgroundColor = "") {
-    //             body.backgroundColor = "black";
-    //         } else if (body.backgroundColor = "black") {
-    //             body.backgroundColor = "white";
-    //         }
-    //     })
-    // }
-
-    // function myFunction() {
-    //         let element = document.body;
-    //         element.classList.toggle("dark-mode");
-    //         document.getElementById("mode").innerText = "light";
-    //         document.getElementById("mode-image").src = {dayMode};
-    // if (document.getElementById("mode-image").src == {dayMode}) {
-    //     let element = document.body;
-    //     element.classList.toggle("dark-mode");
-    //     document.getElementById("mode-image").src = {dayMode};
-    // } else {
-    //     let element = document.body; 
-    //     element.classList.toggle("day-mode");
-    //     document.getElementById("mode-image").src = {darkMode};
-    // }
-    // let image = document.getElementById('mode-image');   
-    // }
-    // const home = document.getElementById('haveNav'); 
-    // home.addEventListener('click', () => {
-    //     window.location.href = 'https://codefrontend.com'
-    // })
-
-    // const contact = document.getElementById('contactNav').addEventListener('click',() => {
-    //     document.getElementById('#contactMeTitle'); 
-    // })
-
     return (
         <div>
             <nav className="navbar">
@@ -74,5 +36,4 @@ export default function Narbar() {
             </nav>
         </div>
     )
-
 }

@@ -14,17 +14,7 @@ export default function HomePage() {
     function myFunction() {
         let element = document.body;
         element.classList.toggle("dark-mode");
-        document.getElementById("modeImage").src = { dayMode };
-        // if (document.getElementById("mode-image").src == {dayMode}) {
-        //     let element = document.body;
-        //     element.classList.toggle("dark-mode");
-        //     document.getElementById("mode-image").src = {dayMode};
-        // } else {
-        //     let element = document.body; 
-        //     element.classList.toggle("day-mode");
-        //     document.getElementById("mode-image").src = {darkMode};
-        // }
-        // let image = document.getElementById('mode-image');   
+        document.getElementById("modeImage").src = { dayMode };  
     }
     const styleObj = {
         marginTop: 50

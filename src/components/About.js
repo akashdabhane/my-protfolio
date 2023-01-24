@@ -5,7 +5,6 @@ export default function About() {
     <div>
       <div className='aboutPage'>
         <h1 id='aboutHeading'>About page</h1>
-          
       </div>
     </div>
   )
